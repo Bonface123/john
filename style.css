@@ -1,0 +1,138 @@
+body {
+  background-color: aliceblue;
+ /* background-image: url('school.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color:white; /* Dark text color for better readability */
+}
+
+/* Header Styles */
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #006600; /* Dark green color for header text */
+}
+
+header p {
+  font-size: 18px;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav div {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #006600; /* Dark green color for navigation links */
+  font-weight:lighter;
+}
+
+nav a:hover {
+  color: #009900; /* Light green color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color:paleturquoise; /* Dark green color for section headings */
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  color:black;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Contact Form Styles */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color:red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: blue;
+}
+
+#form-message {
+  margin-top: 10px;
+  color:black;
+  font-weight: bold;
+}
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav div {
+    margin: 10px 0;
+  }
+  main {
+    padding: 10px;
+  }
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000; /* Ensure it's above other content */
+}
